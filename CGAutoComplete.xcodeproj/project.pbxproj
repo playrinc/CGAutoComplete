@@ -30,6 +30,7 @@
 		CE730C0518504A4300834DE2 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = CE730BFE18504A4300834DE2 /* 5.png */; };
 		CE730C0618504A4300834DE2 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = CE730BFF18504A4300834DE2 /* 6.png */; };
 		CE730C0718504A4300834DE2 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = CE730C0018504A4300834DE2 /* 7.png */; };
+		CEBE36A718505ECA001184CD /* cgauto.gif in Resources */ = {isa = PBXBuildFile; fileRef = CEBE36A618505ECA001184CD /* cgauto.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		CE730BFE18504A4300834DE2 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 		CE730BFF18504A4300834DE2 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 		CE730C0018504A4300834DE2 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		CEBE36A618505ECA001184CD /* cgauto.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cgauto.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 		CE730BC018500DB100834DE2 /* CGAutoComplete */ = {
 			isa = PBXGroup;
 			children = (
+				CEBE36A618505ECA001184CD /* cgauto.gif */,
 				CE730BF918504A4300834DE2 /* numberImages */,
 				CE730BEF18500DF600834DE2 /* CGAutoCompleteView */,
 				CE730BC918500DB100834DE2 /* AppDelegate.h */,
@@ -278,6 +281,7 @@
 				CE730BD318500DB100834DE2 /* Images.xcassets in Resources */,
 				CE730C0418504A4300834DE2 /* 4.png in Resources */,
 				CE730C0118504A4300834DE2 /* 1.png in Resources */,
+				CEBE36A718505ECA001184CD /* cgauto.gif in Resources */,
 				CE730C0618504A4300834DE2 /* 6.png in Resources */,
 				CE730C0218504A4300834DE2 /* 2.png in Resources */,
 				CE730C0318504A4300834DE2 /* 3.png in Resources */,
@@ -516,6 +520,7 @@
 				CE730BEB18500DB100834DE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE730BEC18500DB100834DE2 /* Build configuration list for PBXNativeTarget "CGAutoCompleteTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				CE730BEE18500DB100834DE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
