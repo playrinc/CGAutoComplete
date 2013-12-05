@@ -26,9 +26,9 @@ To put in your own app
 4. Put in the protocol's methods:
 
 ```objc
-- (void)suggestionSelected:(id)suggestionsListView viewIndex:(int)index {}
-- (int)numberOfSuggestions:(id)suggestionsListView {}
-- (CGAutoCompleteSuggestionView*)suggestionForIndex:(id)suggestionsListView viewIndex:(int)index {}
+- (void)suggestionSelected:(CGAutoCompleteSuggestionsListView*)suggestionsListView viewIndex:(int)index {}
+- (int)numberOfSuggestions:(CGAutoCompleteSuggestionsListView*)suggestionsListView {}
+- (CGAutoCompleteSuggestionView*)suggestionForIndex:(CGAutoCompleteSuggestionsListView*)suggestionsListView viewIndex:(int)index {}
 ```
 
 5. Refer to the sample app on how to use the methods. They are pretty self explanatory.
