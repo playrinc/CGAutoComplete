@@ -84,16 +84,16 @@
 }
 
 
-- (void)suggestionSelected:(id)suggestionsListView viewIndex:(int)index {
+- (void)suggestionSelected:(CGAutoCompleteSuggestionsListView*)suggestionsListView viewIndex:(int)index {
     NSDictionary *data = [queriedData objectAtIndex:index];
     NSLog(@"This suggestion was selected: %@", data[@"text"]);
 }
 
-- (int)numberOfSuggestions:(id)suggestionsListView {
+- (int)numberOfSuggestions:(CGAutoCompleteSuggestionsListView*)suggestionsListView {
     return queriedData.count;
 }
 
-- (CGAutoCompleteSuggestionView*)suggestionForIndex:(id)suggestionsListView viewIndex:(int)index {
+- (CGAutoCompleteSuggestionView*)suggestionForIndex:(CGAutoCompleteSuggestionsListView*)suggestionsListView viewIndex:(int)index {
     CGAutoCompleteSuggestionView *suggestionView = [[CGAutoCompleteSuggestionView alloc] initWithType:suggestionViewType];
     NSDictionary *data = [queriedData objectAtIndex:index];
     suggestionView.text = data[@"text"];

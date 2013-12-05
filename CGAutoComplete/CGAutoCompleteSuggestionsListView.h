@@ -9,10 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "CGAutoCompleteSuggestionView.h"
 
+@class CGAutoCompleteSuggestionsListView;
+
 @protocol CGAutoCompleteProtocol<NSObject>
-- (CGAutoCompleteSuggestionView*)suggestionForIndex:(id)suggestionsListView viewIndex:(int)index;
-- (int)numberOfSuggestions:(id)suggestionsListView;
-- (void)suggestionSelected:(id)suggestionsListView viewIndex:(int)index;
+- (CGAutoCompleteSuggestionView*)suggestionForIndex:(CGAutoCompleteSuggestionsListView*)suggestionsListView viewIndex:(int)index;
+- (int)numberOfSuggestions:(CGAutoCompleteSuggestionsListView*)suggestionsListView;
+- (void)suggestionSelected:(CGAutoCompleteSuggestionsListView*)suggestionsListView viewIndex:(int)index;
 @end
 
 @interface CGAutoCompleteSuggestionsListView : UIScrollView {
