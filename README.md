@@ -48,7 +48,7 @@ CGAutoCompleteSuggestionView *suggestionView = [[CGAutoCompleteSuggestionView al
 9. Refresh the data of the suggestions with
 
 ```objc
-[suggestionView reloadSuggestions];
+[suggestions reloadSuggestions];
 ```
 
 On the suggestion view itself, in the protocol method to set it up based on its index, these are the properties that can be set:
