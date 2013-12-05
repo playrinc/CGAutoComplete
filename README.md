@@ -5,6 +5,8 @@ A scroll view that appears under a UITextView that shows suggestions based off o
 
 ![alt tag](http://chrisgalz.com/cgauto1.gif)
 
+Everything is animated on iOS even though it is not shown in the gif.
+
 To use the sample app
 =======================
 Just start typing "S" in the UITextField because all the sample data's text starts with S
@@ -54,5 +56,7 @@ CGAutoCompleteSuggestionView *suggestionView = [[CGAutoCompleteSuggestionView al
 On the suggestion view itself, in the protocol method to set it up based on its index, these are the properties that can be set:
 
 image, text, textFont, textColor, detailedText, detailedTextFont, detailedTextColor
+
+The max amount of suggestions that are shown before becoming scrollable is set to 4 by default, but it is a constant that can be set in the source code if necessary.
 
 Enjoy.
