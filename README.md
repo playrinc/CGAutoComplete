@@ -3,7 +3,7 @@ CGAutoComplete
 
 A scroll view that appears under a UITextView that shows suggestions based off of data given to it. Like in Android's SDK...
 
-![alt tag](http://chrisgalz.com/cgauto.gif)
+![alt tag](http://chrisgalz.com/cgauto1.gif)
 
 To use the sample app
 =======================
@@ -44,5 +44,15 @@ suggestions.autoCompleteProtocol = self;
 ```objc
 CGAutoCompleteSuggestionView *suggestionView = [[CGAutoCompleteSuggestionView alloc] initWithType:CGSuggestionTypeText];
 ```
+
+9. Refresh the data of the suggestions with
+
+```objc
+[suggestionView reloadSuggestions];
+```
+
+On the suggestion view itself, in the protocol method to set it up based on its index, these are the properties that can be set:
+
+image, text, textFont, textColor, detailedText, detailedTextFont, detailedTextColor
 
 Enjoy.
